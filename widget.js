@@ -216,7 +216,7 @@ const widgetMessage = {
                     itemWrapper.append(this.createMess(item));
                     localStorage.setItem(item.id, false);
                 });
-            }, 100);
+            }, 2000);
 
         });
 
